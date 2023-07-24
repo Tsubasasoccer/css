@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+a {
+    color: #4070f4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.img {
+    width: 50%;
+    height: 100%;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.wrapper {
+    padding: 34px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 6px;
+}
+
+.regTitle {
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333
+}
+
+.regTitle::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    background: #4070f4;
+    border-radius: 12px;
+}
+
+.regForm {
+    margin-top: 25px;
+}
+
+.regForm .input-box {
+    height: 52px;
+    margin: 18px 0;
+}
+
+.input-box input {
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+}
+
+.input-box.button input {
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    background-color: #0e4bf1;
+}
+
+.input-box.button input:hover {
+    background-color: #4070f4;
+}
+
+.question {
+    color: #333;
+    width: 100%;
+    text-align: center;
+}
+
+
+.login {
+    margin-left: 5px;
+}
